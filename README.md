@@ -22,6 +22,7 @@ Note you may add new categories if there are multiple items in Miscellaneous tha
 
 ## Floppy's Neovim Config
 > Floppy's neovim config, focused on Go, Rust and Elm. 10 times better than isaac's
+
 [floppy-nvim](https://github.com/nixnest/Awesome/tree/master/Unix/floppy-nvim)
 
 explanation of what the config adds/does would go here.
