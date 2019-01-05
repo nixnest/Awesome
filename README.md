@@ -21,7 +21,7 @@ Note you may add new categories if there are multiple items in Miscellaneous tha
 *Unix-y programs, tools, or information*
 
 ## Floppy's Neovim Config
-> Floppy's neovim config, focused on Go, Rust and Elm. 10 times better than isaac's
+*Floppy's neovim config, focused on Go, Rust and Elm. 10 times better than isaac's*
 
 [floppy-nvim](https://github.com/nixnest/Awesome/tree/master/Unix/floppy-nvim)
 
@@ -34,7 +34,7 @@ explanation of what the config adds/does would go here.
 *Something that doesn't belong anywhere else*
 
 ## Example Item
-> Give a short (under 100 character) summary of what this is.
+*Give a short (under 100 character) summary of what this is.*
 
 [Now give a relevant link to what this is](https://example.com/)
 
