@@ -1,5 +1,5 @@
 # Awesome stuff
-A list of useful, awesome, or otherwise notworthy things brought to you by \*nix nest.  
+A list of useful, awesome, or otherwise noteworthy things brought to you by \*nix nest.  
 
 - [Preamble](#preamble)
   - [Purpose](#purpose)
