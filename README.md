@@ -19,6 +19,8 @@ Note you may add new categories if there are multiple items in Miscellaneous tha
 # Unix
 *Unix-y programs, tools, or information*
 
+[floppy-vim](Unix/floppy-vim) - Floppy's neovim config, focused on Go, Rust and Elm. 10 times better than isaac's
+
 # Programming
 *Javascript not allowed*
 
