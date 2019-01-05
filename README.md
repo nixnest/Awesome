@@ -2,7 +2,6 @@
 A list of useful, awesome, or otherwise noteworthy things brought to you by \*nix nest.  
 
 - [Preamble](#preamble)
-  - [Purpose](#purpose)
   - [Adding to this list](#adding-to-this-list)
 - [Unix](#unix)
 - [Programming](#programming)
@@ -10,9 +9,6 @@ A list of useful, awesome, or otherwise noteworthy things brought to you by \*ni
   - [Example Item](#example-item)
 
 # Preamble
-
-## Purpose
-idk to keep people from posting this stuff in our discord.
 
 ## Adding to this list
 To add to this list, use the [example template](#example-item) provided, and add it to table of contents at the top.
