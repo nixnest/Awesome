@@ -4,6 +4,7 @@ A list of useful, awesome, or otherwise noteworthy things brought to you by \*ni
 - [Preamble](#preamble)
   - [Adding to this list](#adding-to-this-list)
 - [Unix](#unix)
+  - [Floppy's Neovim Config](#floppys-neovim-config)
 - [Programming](#programming)
 - [Miscellaneous](#miscellaneous)
   - [Example Item](#example-item)
@@ -19,7 +20,11 @@ Note you may add new categories if there are multiple items in Miscellaneous tha
 # Unix
 *Unix-y programs, tools, or information*
 
-[floppy-nvim](https://github.com/nixnest/Awesome/tree/master/Unix/floppy-nvim) - Floppy's neovim config, focused on Go, Rust and Elm. 10 times better than isaac's
+## Floppy's Neovim Config
+> Floppy's neovim config, focused on Go, Rust and Elm. 10 times better than isaac's
+[floppy-nvim](https://github.com/nixnest/Awesome/tree/master/Unix/floppy-nvim)
+
+explanation of what the config adds/does would go here.
 
 # Programming
 *Javascript not allowed*
