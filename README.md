@@ -27,6 +27,14 @@ Note you may add new categories if there are multiple items in Miscellaneous tha
 
 explanation of what the config adds/does would go here.
 
+## Sky's comma scripts (inspired by Brandon Rhodes)
+
+*Some useful scripts, most to simplify git operations*
+
+[sky-bin](https://github.com/nixnest/Awesome/tree/master/Unix/sky-bin)
+
+Rationale behind the comma: https://rhodesmill.org/brandon/2009/commands-with-comma/
+
 # Programming
 *Javascript not allowed*
 

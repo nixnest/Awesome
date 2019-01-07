@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+git config user.email "ldelelis@est.frba.utn.edu.ar"
+git config user.name "Lucio Delelis"

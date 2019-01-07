@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+ffmpeg -i $1.wav -ab 320k $1.mp3
