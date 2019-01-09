@@ -1,0 +1,3 @@
+#!/bin/sh
+
+diff -Naur $1 $2 | colordiff | less

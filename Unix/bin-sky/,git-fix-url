@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+CONFIG_PATH="`git rev-parse --show-toplevel`/.git/config"
+
+sed -i 's#https://#ssh://git@#' $CONFIG_PATH
+
