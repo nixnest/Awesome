@@ -41,7 +41,7 @@ Rationale behind the comma: https://rhodesmill.org/brandon/2009/commands-with-co
 
 ## Zack's Nixnest Image Host
 _Modified from Fish's personal image host to support API keys and whatnot. Written in NodeJS. Also comes with a terrible bash script for adding new users._
-[Nixnest-Imagehost](https://github.com/nixnest/Awesome/tree/master/Programming/nixnest-imagehost)
+[Nixnest-Imagehost](https://github.com/nixnest/Awesome/tree/master/Programming/Nixnest-Imagehost)
 
 # Miscellaneous
 *Something that doesn't belong anywhere else*
