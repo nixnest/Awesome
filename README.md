@@ -6,6 +6,7 @@ A list of useful, awesome, or otherwise noteworthy things brought to you by \*ni
 - [Unix](#unix)
   - [Floppy's Neovim Config](#floppys-neovim-config)
 - [Programming](#programming)
+  - [Zack's Nixnest Image Host](#zacks-nixnest-image-host)
 - [Miscellaneous](#miscellaneous)
   - [Example Item](#example-item)
 
@@ -37,6 +38,10 @@ Rationale behind the comma: https://rhodesmill.org/brandon/2009/commands-with-co
 
 # Programming
 *Javascript not allowed*
+
+## Zack's Nixnest Image Host
+_Modified from Fish's personal image host to support API keys and whatnot. Written in NodeJS. Also comes with a terrible bash script for adding new users._
+[Nixnest-Imagehost](https://github.com/nixnest/Awesome/tree/master/Programming/nixnest-imagehost)
 
 # Miscellaneous
 *Something that doesn't belong anywhere else*
