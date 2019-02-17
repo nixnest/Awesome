@@ -6,6 +6,7 @@ A list of useful, awesome, or otherwise noteworthy things brought to you by \*ni
 - [Unix](#unix)
   - [Floppy's Neovim Config](#floppys-neovim-config)
   - [Flippy's i3-wm Config](#flippys-i3-config)
+  - [MarkusG's Screenshot Scripts](#markusgs-screenshot-scripts)
   - [thot's i3-gaps Config](#thots-i3-gaps-configs)
 - [Programming](#programming)
   - [Zack's Nixnest Image Host](#zacks-nixnest-image-host)
