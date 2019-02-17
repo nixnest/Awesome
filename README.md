@@ -54,6 +54,11 @@ This is a basic i3 configuratation for general use. Features are listed below.
 - Starts nm-applet and compton.
 - Thinkvantage button on thinkpads will open Neomutt.
 
+## MarkusG's screenshot scripts
+* Screenshot the whole screen, the active window, or a region and upload it to 0x0.st
+
+[MarkusGordathian/dotfiles/bin/](https://github.com/MarkusGordathian/dotfiles/tree/master/bin)
+
 ## thot's i3-gaps configs
 
 *Here's my config from when I used i3-gaps. Please note that some things may need to be changed/installed.*

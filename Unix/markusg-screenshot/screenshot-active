@@ -1,0 +1,10 @@
+#!/bin/zsh
+# screenshot the active window using maim and upload to 0x0.st
+
+pb() {
+	curl -F file=@- 'https://0x0.st/'
+}
+
+link=$(maim --hidecursor --window=$(xdotool getactivewindow) | pb)
+echo $link | xsel -b
+notify-send -t 1000 "Screenshot uploaded." -i '/usr/share/icons/Arc/apps/symbolic/applets-screenshooter-symbolic.svg'
