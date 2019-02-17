@@ -6,6 +6,7 @@ A list of useful, awesome, or otherwise noteworthy things brought to you by \*ni
 - [Unix](#unix)
   - [Floppy's Neovim Config](#floppys-neovim-config)
   - [Flippy's i3-wm Config](#flippys-i3-config)
+  - [thot's i3-gaps Config](#thots-i3-config)
 - [Programming](#programming)
   - [Zack's Nixnest Image Host](#zacks-nixnest-image-host)
 - [Miscellaneous](#miscellaneous)
@@ -52,6 +53,14 @@ This is a basic i3 configuratation for general use. Features are listed below.
 - Sets wallpaper with feh. Change this to your own wallpaper.
 - Starts nm-applet and compton.
 - Thinkvantage button on thinkpads will open Neomutt.
+
+## thot's i3-gaps configs
+
+*Here's my config from when I used i3-gaps. Please note that some things may need to be changed/installed.*
+
+[thot-i3](https://github.com/nixnest/Awesome/tree/master/Unix/thot-i3)
+
+Change things, make it your own. If you need help, dont ask me.
 
 # Programming
 *Javascript not allowed*
