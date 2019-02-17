@@ -58,7 +58,7 @@ This is a basic i3 configuratation for general use. Features are listed below.
 ## MarkusG's screenshot scripts
 * Screenshot the whole screen, the active window, or a region and upload it to 0x0.st
 
-[MarkusGordathian/dotfiles/bin/](https://github.com/MarkusGordathian/dotfiles/tree/master/bin)
+[MarkusGordathian/dotfiles/bin/](https://github.com/nixnest/Awesome/tree/master/Unix/markusg-screenshot)
 
 ## thot's i3-gaps configs
 
