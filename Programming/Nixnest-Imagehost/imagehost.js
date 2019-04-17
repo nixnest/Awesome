@@ -18,9 +18,14 @@ app.use(express.json({limit: '50mb'}));
 app.use(cors());
 app.use(fileUpload())
 app.enable('trust proxy')
-// TODO 11.04.19: documentation
+/**
+ * initialize public screenshot directory purge job
+ * this deletes every file in there if it's older than 10 days
+ */
 var pubClean = schedule.scheduleJob(' 0 * * * *', function() {
     var pubDir = root + '/images/i/'
+
+    /** read public directory, for every file do */
     fs.readdir(pubDir, function (err, files) {
         files.forEach(function(file, index) {
             fs.stat(path.join(pubDir, file), function (err, stat) {
@@ -29,8 +34,10 @@ var pubClean = schedule.scheduleJob(' 0 * * * *', function() {
                     return console.error(err);
                 }
                 now = new Date().getTime();
-                endTime = new Date(stat.ctime).getTime() + 864000;
+                endTime = new Date(stat.ctime).getTime() + 864000; // 864000s = 10d
+                /** if the file is older than 10 days */
                 if (now > endTime) {
+                    /** delete file */
                     return rimraf(path.join(pubDir, file), function(err){
                         if (err) {
                             return console.error(err);
