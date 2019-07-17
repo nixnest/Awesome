@@ -1,0 +1,16 @@
+#!/bin/bash
+# get a screen region with slop and record it with ffmpeg
+
+region=$(slop)
+size=$(echo $region | cut -d + -f 1)
+offset=$(echo $region | cut -d + -f 2-3 | sed 's/+/,/')
+echo $size
+echo $offset
+ffmpeg \
+	-video_size $size \
+	-framerate 60 \
+	-f x11grab \
+	-i :0.0+$offset \
+	-pix_fmt yuv420p \
+	/tmp/screencast.mp4 &
+echo $! > /tmp/screencast_pid
