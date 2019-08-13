@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+echo "Updating remote state"
+git fetch --prune
+
+BRANCHES=$(git branch -vv | grep -e 'gone]' | awk '{ print $1 }')
+
+echo "Branches to delete locally:"
+echo $BRANCHES | tr ' ' '\n'
+
+read -p "Is this correct? Confirming will locally delete the listed branches! [Y/n]"
+REPLY=${REPLY:-"y"}
+
+(echo $REPLY | grep -Eq ^[Yy]$) && echo $BRANCHES | while read branch; do
+    git branch -D $branch
+done
