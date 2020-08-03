@@ -1,0 +1,19 @@
+#!/bin/bash
+# upload screencast and clean up
+
+# kill ffmpeg and delete the file we use to keep track of its PID
+ffmpeg_id=$(cat /tmp/screencast_pid)
+kill -2 $ffmpeg_id
+rm /tmp/screencast_pid
+
+# upload screencast to nixne.st
+key=$(cat ~/nixnest_key.txt)
+newname=$(mktemp /tmp/screencast-XXXXX.mp4)
+mv /tmp/screencast.mp4 $newname
+sleep .5
+response=$(curl -X POST https://upload.nixne.st/image -H "Upload-Key: $key" -F "uploadFile=@$newname")
+sleep .5
+
+# copy url and notify
+echo $response | jq -r '.link' | xsel -b
+notify-send -t 1000 'Screencast uploaded.' -i '/usr/share/icons/Arc/apps/symbolic/applets-screenshooter-symbolic.svg'
